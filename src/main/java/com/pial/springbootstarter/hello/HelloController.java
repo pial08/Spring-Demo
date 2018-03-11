@@ -16,4 +16,9 @@ public class HelloController {
     public String errorShit() {
         return "This is an error page";
     }
+
+    @RequestMapping("/home")
+    public String home() {
+        return "This is home";
+    }
 }
